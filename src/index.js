@@ -1,4 +1,5 @@
-var http = require("http");
+// @flow
+const http = require("http");
 
 //create a server object:
 http
