@@ -1,0 +1,733 @@
+[
+    {
+      "team_id": 0,
+      "name": "Codact",
+      "isActive": false,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "nisi",
+        "incididunt",
+        "exercitation",
+        "anim",
+        "sit",
+        "pariatur",
+        "id"
+      ],
+      "members": [
+        {
+          "user_id": 36
+        },
+        {
+          "user_id": 60
+        }
+      ]
+    },
+    {
+      "team_id": 1,
+      "name": "Artworlds",
+      "isActive": false,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "amet",
+        "nulla",
+        "fugiat",
+        "quis",
+        "voluptate",
+        "in",
+        "ut"
+      ],
+      "members": [
+        {
+          "user_id": 40
+        }
+      ]
+    },
+    {
+      "team_id": 2,
+      "name": "Kiggle",
+      "isActive": true,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "sint",
+        "nisi",
+        "dolor",
+        "tempor",
+        "veniam",
+        "cillum",
+        "consectetur"
+      ],
+      "members": [
+        {
+          "user_id": 31
+        },
+        {
+          "user_id": 47
+        },
+        {
+          "user_id": 72
+        }
+      ]
+    },
+    {
+      "team_id": 3,
+      "name": "Kenegy",
+      "isActive": true,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "sit",
+        "exercitation",
+        "nostrud",
+        "magna",
+        "non",
+        "eu",
+        "sunt"
+      ],
+      "members": [
+        {
+          "user_id": 80
+        },
+        {
+          "user_id": 62
+        },
+        {
+          "user_id": 11
+        },
+        {
+          "user_id": 29
+        },
+        {
+          "user_id": 9
+        }
+      ]
+    },
+    {
+      "team_id": 4,
+      "name": "Quordate",
+      "isActive": false,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "ea",
+        "fugiat",
+        "nisi",
+        "deserunt",
+        "anim",
+        "occaecat",
+        "mollit"
+      ],
+      "members": [
+        {
+          "user_id": 70
+        },
+        {
+          "user_id": 69
+        }
+      ]
+    },
+    {
+      "team_id": 5,
+      "name": "Supportal",
+      "isActive": true,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "labore",
+        "reprehenderit",
+        "adipisicing",
+        "culpa",
+        "nulla",
+        "mollit",
+        "eu"
+      ],
+      "members": [
+        {
+          "user_id": 10
+        },
+        {
+          "user_id": 85
+        },
+        {
+          "user_id": 76
+        }
+      ]
+    },
+    {
+      "team_id": 6,
+      "name": "Plutorque",
+      "isActive": false,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "ut",
+        "sint",
+        "ut",
+        "ipsum",
+        "anim",
+        "eiusmod",
+        "eu"
+      ],
+      "members": [
+        {
+          "user_id": 80
+        },
+        {
+          "user_id": 3
+        },
+        {
+          "user_id": 47
+        },
+        {
+          "user_id": 33
+        }
+      ]
+    },
+    {
+      "team_id": 7,
+      "name": "Cowtown",
+      "isActive": true,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "ea",
+        "eiusmod",
+        "adipisicing",
+        "ut",
+        "adipisicing",
+        "labore",
+        "laboris"
+      ],
+      "members": [
+        {
+          "user_id": 36
+        },
+        {
+          "user_id": 6
+        }
+      ]
+    },
+    {
+      "team_id": 8,
+      "name": "Slumberia",
+      "isActive": false,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "eu",
+        "laborum",
+        "proident",
+        "ullamco",
+        "velit",
+        "aliquip",
+        "veniam"
+      ],
+      "members": [
+        {
+          "user_id": 85
+        },
+        {
+          "user_id": 10
+        },
+        {
+          "user_id": 87
+        },
+        {
+          "user_id": 69
+        }
+      ]
+    },
+    {
+      "team_id": 9,
+      "name": "Crustatia",
+      "isActive": false,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "cillum",
+        "est",
+        "ullamco",
+        "deserunt",
+        "ea",
+        "ex",
+        "proident"
+      ],
+      "members": [
+        {
+          "user_id": 24
+        },
+        {
+          "user_id": 65
+        },
+        {
+          "user_id": 16
+        },
+        {
+          "user_id": 93
+        },
+        {
+          "user_id": 75
+        }
+      ]
+    },
+    {
+      "team_id": 10,
+      "name": "Gronk",
+      "isActive": true,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "nostrud",
+        "consequat",
+        "pariatur",
+        "velit",
+        "sint",
+        "incididunt",
+        "quis"
+      ],
+      "members": [
+        {
+          "user_id": 47
+        },
+        {
+          "user_id": 76
+        },
+        {
+          "user_id": 53
+        },
+        {
+          "user_id": 37
+        }
+      ]
+    },
+    {
+      "team_id": 11,
+      "name": "Cujo",
+      "isActive": false,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "anim",
+        "id",
+        "enim",
+        "incididunt",
+        "voluptate",
+        "aliquip",
+        "proident"
+      ],
+      "members": [
+        {
+          "user_id": 25
+        }
+      ]
+    },
+    {
+      "team_id": 12,
+      "name": "Vortexaco",
+      "isActive": true,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "cupidatat",
+        "magna",
+        "velit",
+        "pariatur",
+        "nostrud",
+        "nostrud",
+        "ad"
+      ],
+      "members": [
+        {
+          "user_id": 3
+        },
+        {
+          "user_id": 52
+        },
+        {
+          "user_id": 80
+        }
+      ]
+    },
+    {
+      "team_id": 13,
+      "name": "Elita",
+      "isActive": true,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "exercitation",
+        "mollit",
+        "id",
+        "excepteur",
+        "amet",
+        "commodo",
+        "magna"
+      ],
+      "members": [
+        {
+          "user_id": 56
+        },
+        {
+          "user_id": 67
+        }
+      ]
+    },
+    {
+      "team_id": 14,
+      "name": "Jamnation",
+      "isActive": true,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "sit",
+        "eiusmod",
+        "cupidatat",
+        "sunt",
+        "duis",
+        "irure",
+        "veniam"
+      ],
+      "members": [
+        {
+          "user_id": 18
+        },
+        {
+          "user_id": 34
+        },
+        {
+          "user_id": 52
+        },
+        {
+          "user_id": 67
+        }
+      ]
+    },
+    {
+      "team_id": 15,
+      "name": "Sultrax",
+      "isActive": true,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "esse",
+        "ullamco",
+        "officia",
+        "pariatur",
+        "cillum",
+        "voluptate",
+        "reprehenderit"
+      ],
+      "members": [
+        {
+          "user_id": 15
+        },
+        {
+          "user_id": 18
+        }
+      ]
+    },
+    {
+      "team_id": 16,
+      "name": "Bezal",
+      "isActive": true,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "id",
+        "magna",
+        "qui",
+        "laboris",
+        "laboris",
+        "veniam",
+        "id"
+      ],
+      "members": [
+        {
+          "user_id": 49
+        },
+        {
+          "user_id": 15
+        }
+      ]
+    },
+    {
+      "team_id": 17,
+      "name": "Exospeed",
+      "isActive": true,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "ut",
+        "reprehenderit",
+        "mollit",
+        "quis",
+        "culpa",
+        "cillum",
+        "minim"
+      ],
+      "members": [
+        {
+          "user_id": 13
+        },
+        {
+          "user_id": 50
+        },
+        {
+          "user_id": 70
+        },
+        {
+          "user_id": 31
+        },
+        {
+          "user_id": 45
+        }
+      ]
+    },
+    {
+      "team_id": 18,
+      "name": "Zilla",
+      "isActive": true,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "est",
+        "qui",
+        "occaecat",
+        "dolor",
+        "enim",
+        "quis",
+        "aliquip"
+      ],
+      "members": [
+        {
+          "user_id": 37
+        },
+        {
+          "user_id": 15
+        },
+        {
+          "user_id": 40
+        }
+      ]
+    },
+    {
+      "team_id": 19,
+      "name": "Geekosis",
+      "isActive": true,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "enim",
+        "minim",
+        "minim",
+        "fugiat",
+        "dolor",
+        "reprehenderit",
+        "velit"
+      ],
+      "members": [
+        {
+          "user_id": 46
+        },
+        {
+          "user_id": 64
+        },
+        {
+          "user_id": 79
+        },
+        {
+          "user_id": 7
+        }
+      ]
+    },
+    {
+      "team_id": 20,
+      "name": "Austex",
+      "isActive": false,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "veniam",
+        "commodo",
+        "dolore",
+        "eu",
+        "proident",
+        "deserunt",
+        "et"
+      ],
+      "members": [
+        {
+          "user_id": 18
+        }
+      ]
+    },
+    {
+      "team_id": 21,
+      "name": "Viagrand",
+      "isActive": false,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "deserunt",
+        "do",
+        "qui",
+        "velit",
+        "nisi",
+        "aliqua",
+        "aliqua"
+      ],
+      "members": [
+        {
+          "user_id": 81
+        }
+      ]
+    },
+    {
+      "team_id": 22,
+      "name": "Magnemo",
+      "isActive": false,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "reprehenderit",
+        "officia",
+        "esse",
+        "amet",
+        "enim",
+        "reprehenderit",
+        "consectetur"
+      ],
+      "members": [
+        {
+          "user_id": 35
+        },
+        {
+          "user_id": 81
+        },
+        {
+          "user_id": 93
+        },
+        {
+          "user_id": 84
+        },
+        {
+          "user_id": 82
+        }
+      ]
+    },
+    {
+      "team_id": 23,
+      "name": "Irack",
+      "isActive": true,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "aute",
+        "ipsum",
+        "minim",
+        "velit",
+        "minim",
+        "labore",
+        "anim"
+      ],
+      "members": [
+        {
+          "user_id": 75
+        },
+        {
+          "user_id": 88
+        },
+        {
+          "user_id": 47
+        },
+        {
+          "user_id": 53
+        }
+      ]
+    },
+    {
+      "team_id": 24,
+      "name": "Intergeek",
+      "isActive": true,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "laboris",
+        "quis",
+        "dolore",
+        "aute",
+        "ea",
+        "laboris",
+        "qui"
+      ],
+      "members": [
+        {
+          "user_id": 19
+        },
+        {
+          "user_id": 47
+        },
+        {
+          "user_id": 55
+        },
+        {
+          "user_id": 20
+        }
+      ]
+    },
+    {
+      "team_id": 25,
+      "name": "Recrisys",
+      "isActive": false,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "labore",
+        "deserunt",
+        "veniam",
+        "adipisicing",
+        "anim",
+        "sunt",
+        "excepteur"
+      ],
+      "members": [
+        {
+          "user_id": 86
+        },
+        {
+          "user_id": 69
+        },
+        {
+          "user_id": 73
+        },
+        {
+          "user_id": 58
+        },
+        {
+          "user_id": 32
+        }
+      ]
+    },
+    {
+      "team_id": 26,
+      "name": "Xixan",
+      "isActive": true,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "eu",
+        "do",
+        "duis",
+        "ullamco",
+        "est",
+        "consectetur",
+        "do"
+      ],
+      "members": [
+        {
+          "user_id": 75
+        },
+        {
+          "user_id": 93
+        },
+        {
+          "user_id": 35
+        }
+      ]
+    },
+    {
+      "team_id": 27,
+      "name": "Extro",
+      "isActive": false,
+      "logo": "http://placehold.it/32x32",
+      "tags": [
+        "cupidatat",
+        "aute",
+        "id",
+        "pariatur",
+        "proident",
+        "laboris",
+        "dolor"
+      ],
+      "members": [
+        {
+          "user_id": 48
+        }
+      ]
+    }
+  ]
