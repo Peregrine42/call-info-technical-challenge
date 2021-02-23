@@ -1,10 +1,27 @@
 // @flow
-const http = require("http");
+const fs = require('fs').promises;
+const express = require('express');
+const app = express();
+const port = 3000;
 
-//create a server object:
-http
-  .createServer(function(req, res) {
-    res.write("Hello World!"); //write a response to the client
-    res.end(); //end the response
-  })
-  .listen(8080); //the server object listens on port 8080
+app.get('/calls', async (req, res) => {
+	const content = await fs.readFile('./data/calls.json');
+	res.setHeader('Content-Type', 'application/json');
+	res.send(content);
+});
+
+app.get('/teams', async (req, res) => {
+	const content = await fs.readFile('./data/teams.json');
+	res.setHeader('Content-Type', 'application/json');
+	res.send(content);
+});
+
+app.get('/users', async (req, res) => {
+	const content = await fs.readFile('./data/users.json');
+	res.setHeader('Content-Type', 'application/json');
+	res.send(content);
+});
+
+app.listen(port, () => {
+	console.log(`App listening at http://localhost:${port}`);
+});

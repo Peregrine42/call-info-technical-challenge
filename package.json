@@ -12,8 +12,14 @@
     "@babel/cli": "^7.12.17",
     "@babel/core": "^7.12.17",
     "@babel/preset-flow": "^7.12.13",
+    "eslint": "^7.20.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.22.0",
     "flow-bin": "^0.145.0",
     "nodemon": "1.18.4"
   },
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
