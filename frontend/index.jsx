@@ -26,17 +26,17 @@ function App() {
 
 	useEffect(() => {
 		async function getCalls() {
-			const enrichedResponse = await axios.get('/v2/calls');
+			const enrichedResponse = await axios.get('/calls');
 			const enriched = enrichedResponse.data;
-			setCalls(enriched.calls)
-			setDuration(enriched.duration)
-			setCurrentDayMillis(enriched.currentDayMillis)
-			setAllDaysMillis(enriched.allDaysMillis)
-			setVolumes(enriched.volumes)
-			setFlags(enriched.flags)
-			setMaxCallVolume(enriched.maxCallVolume)
-			setMin(enriched.min)
-			setMax(enriched.max)		
+			setCalls(enriched.calls);
+			setDuration(enriched.duration);
+			setCurrentDayMillis(enriched.currentDayMillis);
+			setAllDaysMillis(enriched.allDaysMillis);
+			setVolumes(enriched.volumes);
+			setFlags(enriched.flags);
+			setMaxCallVolume(enriched.maxCallVolume);
+			setMin(enriched.min);
+			setMax(enriched.max);
 		}
 
 		getCalls().catch(e => { throw (e); });
@@ -76,13 +76,14 @@ function App() {
 			result = allDaysMillis.map((d, i) => {
 				const callVolume = volumes[i];
 				const flagged = flags[i];
+				const selected = d === currentDayMillis
 				const scale = callVolume / maxCallVolume;
 
 				return (
 					<div
 						key={i}
 						onClick={() => setCurrentDayMillis(d)}
-						className={classNames({ bar: true, flagged })}
+						className={classNames({ bar: true, flagged, selected })}
 						style={{
 							left: (i * width / duration) + 'px',
 							height: (50 * scale) + 'px'
@@ -92,38 +93,55 @@ function App() {
 			});
 		}
 		return result;
-	}, [allDaysMillis, volumes, flags, maxCallVolume, duration, width]);
+	}, [allDaysMillis, volumes, flags, maxCallVolume, duration, width, currentDayMillis]);
 
-	return (
-		<div>
-			<div style={{ display: 'flex', alignItems: 'end', width: (width) + 'px', height: '50px' }}>
-				{divs}
+	if (calls.length) {
+		return (
+			<div style={{ width: '1000px' }}>
+				<div style={{ display: 'flex' }}>
+					<div style={{ display: 'flex', alignItems: 'end', width: (width) + 'px', height: '50px' }}>
+						{divs}
+					</div>
+					<div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+						<div>
+							{maxCallVolume}
+						</div>
+						<div>
+							0
+						</div>
+					</div>
+				</div>
+				<div style={{ display: 'flex', justifyContent: 'space-between' }}>
+					<div>
+						{DateTime.fromMillis(min || 0).toLocaleString(DateTime.DATE_MED)}
+					</div>
+					<div>
+						{DateTime.fromMillis((max || 0) - 1).toLocaleString(DateTime.DATE_MED)}
+					</div>
+				</div>
+				<div>
+					<h1>{DateTime.fromMillis(currentDayMillis || 0).toLocaleString(DateTime.DATE_MED)} Call Details ({filteredCalls.length})</h1>
+					<table className='table' cellpadding="10">
+						<thead>
+							<tr>
+								<th style={{width: '200px'}}>Start Time</th>
+								<th style={{width: '200px'}}>Duration</th>
+								<th style={{width: '100px'}}>Team</th>
+								<th>Participants</th>
+							</tr>
+						</thead>
+						<tbody>
+							{callTableRows}
+						</tbody>
+					</table>
+				</div>
 			</div>
-			{
-				(() => {
-					if (calls.length) {
-						return (
-							<table>
-								<thead>
-									<tr>
-										<th>ID</th>
-										<th>Start Time</th>
-										<th>Duration</th>
-										<th>Team</th>
-										<th>Participants</th>
-									</tr>
-								</thead>
-								<tbody>
-									{callTableRows}
-								</tbody>
-							</table>
-						)
-					}
-				})()
-			}
-		</div>
-	);
+		);
+	} else {
+		return null
+	}
 }
+
 
 (window: Window).addEventListener('load', () => {
 	const element = document.getElementById('app');

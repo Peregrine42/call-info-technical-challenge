@@ -1,10 +1,14 @@
 body {
 	margin: 0;
+	margin-top: 20px;
+	margin-left: 20px;
 	padding: 0;
+	font-family: sans-serif;
+	color: #304141;
 }
 
 .bar {
-	background-color: lightblue;
+	background-color: #1BC2BD;
 	top: 0px;
 	width: 20px;
 	border-left: 1px solid white;
@@ -13,9 +17,29 @@ body {
 }
 
 .flagged {
-	background-color: gold;
+	background-color: #f1b077;
+}
+
+.selected {
+	background-color: #0F5A5A;
 }
 
 .bar:hover {
-	background-color: blue;
+	background-color: #84bebe;
+}
+
+.table {
+	border-collapse: collapse;
+}
+
+.table tr {
+	padding: 3px;
+}
+
+.table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.table th {
+	text-align: left
 }
