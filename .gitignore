@@ -3,3 +3,5 @@ data
 tmp
 .idea
 .vscode
+static/js/*
+!static/js/.gitkeep

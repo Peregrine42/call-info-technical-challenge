@@ -2,7 +2,7 @@
 const fs = require('fs').promises;
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 8080;
 
 app.get('/calls', async (req, res) => {
 	const content = await fs.readFile('./data/calls.json');
@@ -21,6 +21,8 @@ app.get('/users', async (req, res) => {
 	res.setHeader('Content-Type', 'application/json');
 	res.send(content);
 });
+
+app.use('/', express.static('static'));
 
 app.listen(port, () => {
 	console.log(`App listening at http://localhost:${port}`);

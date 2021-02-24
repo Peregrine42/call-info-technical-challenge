@@ -22,5 +22,6 @@ module.exports = {
 		'indent': ['error', 'tab'],
 		'no-tabs': ['error', {allowIndentationTabs: true}],
 		'no-unused-vars': ['warn'],
+		'require-jsdoc': [false],
 	},
 };

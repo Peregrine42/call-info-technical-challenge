@@ -4,22 +4,38 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js localhost 8080",
+    "start": "nodemon src/index.js",
     "build": "babel src/ -d dist/",
-    "flow": "flow"
+    "flow": "flow",
+    "flow-typed": "flow-typed",
+    "webpack": "webpack",
+    "webpack:watch": "webpack --env=development"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.17",
-    "@babel/core": "^7.12.17",
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.0",
     "@babel/preset-flow": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
     "eslint": "^7.20.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-react": "^7.22.0",
     "flow-bin": "^0.145.0",
-    "nodemon": "1.18.4"
+    "flow-typed": "^3.3.1",
+    "nodemon": "1.18.4",
+    "webpack": "^5.24.0",
+    "webpack-cli": "^4.5.0"
   },
   "keywords": [],
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
+    "core-js": "^3.9.0",
+    "express": "^4.17.1",
+    "luxon": "^1.26.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "regenerator-runtime": "^0.13.7"
   }
 }
