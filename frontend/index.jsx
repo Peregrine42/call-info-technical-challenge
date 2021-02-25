@@ -73,6 +73,7 @@ function App() {
 
 		return (
 			<div style={{width: width + 'px'}}>
+				<em>Click the bar chart to view the calls recorded for that day.</em>
 				<div>
 					<Graph
 						max={max}
