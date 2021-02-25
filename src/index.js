@@ -1,7 +1,7 @@
 // @flow
 const fs = require('fs').promises;
 
-const { enrichCalls } = require('./enrichCalls');
+const {enrichCalls} = require('./enrichCalls');
 
 const express = require('express');
 const app = express();
@@ -29,7 +29,7 @@ app.listen(port, async () => {
 
 	console.log('Preprocessing files...');
 	enriched = enrichCalls(callsJSON, teamsJSON, usersJSON);
-	console.log('Preprocessing complete.')
+	console.log('Preprocessing complete.');
 
 	console.log(`App listening at http://localhost:${port}`);
 });

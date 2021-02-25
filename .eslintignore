@@ -1,0 +1,7 @@
+node_modules
+.git
+.idea
+.vscode
+static
+flow-typed
+decls

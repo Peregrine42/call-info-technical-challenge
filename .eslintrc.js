@@ -1,4 +1,5 @@
 module.exports = {
+	'parser': 'babel-eslint',
 	'env': {
 		'browser': true,
 		'commonjs': true,
@@ -17,11 +18,25 @@ module.exports = {
 	},
 	'plugins': [
 		'react',
+		'flowtype',
 	],
 	'rules': {
 		'indent': ['error', 'tab'],
 		'no-tabs': ['error', {allowIndentationTabs: true}],
 		'no-unused-vars': ['warn'],
-		'require-jsdoc': [false],
+		'require-jsdoc': [0, {}],
+		'quotes': ['warn', 'single'],
+		'react/prop-types': [0],
+	},
+	'parserOptions': {
+		'ecmaFeatures': {
+			'jsx': true,
+		},
+	},
+	'settings': {
+		'react': {
+			'version': 'detect',
+			'flowVersion': '0.145.0',
+		},
 	},
 };
