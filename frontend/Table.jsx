@@ -3,7 +3,6 @@
 const React = require('react');
 const {useMemo} = require('react');
 const {DateTime, Duration} = require('luxon');
-const classNames = require('classnames');
 
 const Table = ({calls} : {calls: EnrichedCall[]}): React.Element<*> => {
 	const callTableRows = useMemo(() => calls.map((call) => {
